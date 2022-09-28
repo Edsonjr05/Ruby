@@ -1,0 +1,28 @@
+
+array =[]
+puts '--Leitura do Json--'
+
+puts 'Informe o caminho do arquivo'
+    arquivo = gets.chomp.to_s
+
+file = File.open(arquivo)
+
+ file.each do |line|
+    tela = line.match(/SR\w+\_\w+/)
+    puts tela
+      if tela == nil
+      else
+        #if !array.include?(tela)
+            #puts tela
+        array.append(tela)
+     #   end
+      end
+
+end
+
+#puts array
+
+
+
+
+

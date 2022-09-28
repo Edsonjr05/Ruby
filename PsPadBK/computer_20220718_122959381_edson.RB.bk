@@ -1,0 +1,10 @@
+class Computer
+    def turn_on
+        "Turn On the computer"
+    end
+
+    def shutdown
+        "Shutdoen the computer"
+    end
+end
+
