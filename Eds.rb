@@ -151,7 +151,7 @@ class Eds < CmdLineApp
 
   def start
     #system('call O:\\GPD\\Edson\\GitHub\\Bats\\robostart.bat')
-    system('dir')
+    system('call ROBO.bat ABR AUE')
   end
 
   def json

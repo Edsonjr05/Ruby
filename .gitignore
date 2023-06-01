@@ -54,3 +54,8 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+PsPadBK/Eds_20230524_113218053_Edson.RB.bk
+PsPadBK/Eds_20230524_113321192_Edson.RB.bk
+PsPadBK/Eds_20230524_113413448_Edson.RB.bk
+PsPadBK/Eds_20230524_120651157_Edson.RB.bk
+*.bk
