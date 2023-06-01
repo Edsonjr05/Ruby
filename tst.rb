@@ -9,20 +9,20 @@ loop do
     puts 'Digite a operação que deseja efetuar:'
     operacao = gets.chomp.to_i
 
-    if operacao > 4 
-        puts "Operação inválida"
-    elsif operacao == 0
-        break
-    else
-    puts 'Digite o primeiro número:'
-    number1 = gets.chomp.to_i
-    puts 'Digite o segundo número'
-    number2 = gets.chomp.to_i
-    end
+    # if operacao > 4 
+    #     puts "Operação inválida"
+    # elsif operacao == 0
+    #     break
+    # else
+    # puts 'Digite o primeiro número:'
+    # number1 = gets.chomp.to_i
+    # puts 'Digite o segundo número'
+    # number2 = gets.chomp.to_i
+    # end
 
     case operacao 
     when 1        
-        puts "O resultado da operação escolhida é #{number1 + number2}"
+        open ('chrome "http://www.google.com.br"')
     when 2
         puts "O resultado da operação escolhida é #{number1 - number2}"
     when 3
